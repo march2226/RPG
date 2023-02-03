@@ -20,7 +20,7 @@ public abstract class Monster extends Living {
 		// 相手のHPをダメージ値だけ減らす
 		hp -= damage;
 		// コンソールにステータスを表示
-		System.out.println(name+","+weapon+","+hp+","+offensive);
+		System.out.println(name+"が"+weapon+"で"+target+"に"+offensive+"のダメージを与えた");
 	}
 
 	

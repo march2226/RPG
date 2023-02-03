@@ -22,7 +22,7 @@ public abstract class Human extends Living {
 		// 自分の攻撃力を1だけ減らす
 		offensive--;
 		// コンソールにステータスを表示
-		System.out.println(name+","+weapon+","+hp+","+offensive);
+		System.out.println(name+"が"+weapon+"で攻撃"+target+"に"+offensive+"のダメージを与えた");
 	
 	}
 
