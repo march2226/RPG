@@ -8,6 +8,6 @@ public class Wizard extends Human{
 		super(name, weapon);
 	
 		this.hp = Dice.get(120,180 );
-		this.offensive = Dice.get(17,23 );
+		this.offensive = Dice.get(12,18 );
 	}
 }
