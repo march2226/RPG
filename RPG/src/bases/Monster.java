@@ -18,9 +18,9 @@ public abstract class Monster extends Living {
 		int num = Dice.get(1, 10);
 		int damage = num *= offensive;
 		// 相手のHPをダメージ値だけ減らす
-		hp -= damage;
+		target.hp -= damage;
 		// コンソールにステータスを表示
-		System.out.println(name+"が"+weapon+"で"+target+"に"+offensive+"のダメージを与えた");
+		System.out.println(name+"が"+weapon+"で"+target+"に"+damage+"のダメージを与えた");
 	}
 
 	
